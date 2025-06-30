@@ -1,0 +1,14 @@
+[project]
+name = "agenticlangraph"
+version = "0.1.0"
+description = "This is the Basic ChatBot using langgraph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "langchain>=0.3.26",
+    "langchain-groq>=0.3.4",
+    "langgraph>=0.4.9",
+    "langsmith>=0.4.2",
+    "python-dotenv>=1.1.1",
+]
